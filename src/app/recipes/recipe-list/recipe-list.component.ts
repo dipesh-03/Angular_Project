@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes : Recipe[] = [
-    new Recipe('A Test Recipe','This is simply a test','https://lobsterfrommaine.com/wp-content/uploads/fly-images/1577/20210517-Pasta-alla-Gricia-with-Lobster3010-375x445-c.jpg')
+    new Recipe('A Test Recipe','This is simply a test','https://static.toiimg.com/thumb/84784534.cms?imgsize=468021&width=800&height=800')
   ];
 
   constructor(){};
