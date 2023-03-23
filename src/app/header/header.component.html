@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -6,8 +7,8 @@
 
         <div class="navbar-default">
             <ul class="nav navbar-nav">
-                <li><button type="submit" href="#" (click)="onSelect('recipe')">Recipes</button></li>
-                <li><button type="submit" href="#" (click)="onSelect('shopping-list')">Shopping List</button></li>
+                <li><button type="submit" href="#" [routerLink]="['recipes']">Recipes</button></li>
+                <li><button type="submit" href="#" [routerLink]="['shopping-list']">Shopping List</button></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" appDropdown>
@@ -21,3 +22,5 @@
         </div>
     </div>
 </nav>
+<!-- (click)="onSelect('recipe')"
+(click)="onSelect('shopping-list')" -->
