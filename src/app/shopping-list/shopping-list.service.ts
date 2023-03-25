@@ -4,6 +4,7 @@ import { Ingredient } from "../shared/ingredient.model";
 
 export class ShoppingListService{
     ingredientsChanged = new Subject<Ingredient []>();
+    startEditing = new Subject<number>();
     ingredients : Ingredient[] = [
         new Ingredient('Apple',5),
         new Ingredient('Tomatoes',10)
