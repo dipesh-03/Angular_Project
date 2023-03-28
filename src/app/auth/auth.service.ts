@@ -50,6 +50,10 @@ export class AuthService{
     );
   }
 
+  logout(){
+    this.user.next(null);
+  }
+
   private handleAuthentication(email:string ,localId:string, idToken:string , expireIn:number){
     const expirationdate = new Date(new Date().getTime() + +expireIn * 1000);
       const user = new User(
