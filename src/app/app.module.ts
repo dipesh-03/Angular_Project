@@ -10,9 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipeService } from './recipes/recipe.service';
 import { AuthComponent } from './auth/auth.component';
 import { AuthInterceptorService } from './auth/auth.-interceptor.service';
-import { RecipesModule } from './recipes/recipes.module';
 import { RecipesRoutingModule } from './recipes/recipes-routing.module';
-import { ShoppingListModule } from './shopping-list/shopping-list.module';
 import { ShoppingListRoutingModule } from './shopping-list/shoppinglist-routing.module';
 import { SharedModule } from './shared/shared.module';
 
@@ -28,9 +26,7 @@ import { SharedModule } from './shared/shared.module';
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
-    RecipesModule,
     RecipesRoutingModule,
-    ShoppingListModule,
     ShoppingListRoutingModule,
     SharedModule
   ],
