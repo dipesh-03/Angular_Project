@@ -24,14 +24,15 @@ import { RecipesComponent } from "./recipes.component";
     CommonModule,
     ReactiveFormsModule
   ],
-  exports:[
-    RecipesComponent,
-    RecipeListComponent,
-    RecipeItemComponent,
-    RecipeDetailComponent,
-    RecipesStartComponent,
-    RecipeEditComponent,
-  ]
+  // We do not need export this beacuse we are using this components internally
+  // exports:[
+  //   RecipesComponent,
+  //   RecipeListComponent,
+  //   RecipeItemComponent,
+  //   RecipeDetailComponent,
+  //   RecipesStartComponent,
+  //   RecipeEditComponent,
+  // ]
 })
 
 export class RecipesModule{
